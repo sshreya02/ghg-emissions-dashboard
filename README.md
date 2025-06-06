@@ -3,6 +3,13 @@
 This project calculates monthly greenhouse gas emissions from electricity, natural gas, and water usage,
 and plots a trend line.
 
+## Contents
+- [Overview](#overview)
+- [Files](#files)
+- [How to Run](#how-to-run)
+- [Sample Output](#sample-output)
+- [Author](#author)
+
 ## Files
 - **ghg_data_sample.csv**: Sample input data (Month, kWh, therms, gallons)
 - **ghg_dashboard.ipynb**: Jupyter Notebook with data calculations and plotting
@@ -15,6 +22,9 @@ and plots a trend line.
    - Load `ghg_data_sample.csv`  
    - Compute emissions  
    - Plot and save `emissions_plot.png`
+## Sample Output
+
+![Monthly GHG Emissions](emissions_plot.png)
 
 ## Author
 Sristi Shreya  
